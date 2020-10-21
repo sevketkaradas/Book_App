@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BookApp" Class="BookAppDataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-CTDT3HT\SEVKET;Initial Catalog=BookApp;Integrated Security=True;MultipleActiveResultSets=True;Application Name=EntityFramework" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="BookAppConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.BookAppDatebase" Member="BookAppDatebases">
+    <Type Name="BookAppDatebase">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="BookName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Writer" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PagesCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Categories" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
